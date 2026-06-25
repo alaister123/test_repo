@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A polished Hello World page with CSS styling and JavaScript interaction."
+    />
+    <title>Hello World</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="hero">
+      <section class="card" aria-label="Hello World demo">
+        <p class="eyebrow">Tiny page, big greeting</p>
+        <h1>Hello, World!</h1>
+        <p class="subtitle">
+          A clean little HTML page styled with CSS and brightened up with a
+          touch of JavaScript.
+        </p>
+
+        <div class="message-box" id="messageBox" aria-live="polite">
+          Click the button to make the page say hello back.
+        </div>
+
+        <button id="helloButton" type="button">Say hello</button>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
